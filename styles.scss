@@ -1,0 +1,171 @@
+/* dependencies */
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "tailwindcss/dist/tailwind.min.css";
+
+/* local imports */
+@import "./styles/variables";
+@import "./styles/fonts";
+@import "./styles/base";
+
+body {
+  // background-image: url(./static/images/christmas_night.jpg);
+  // background-size: 100% 100%;
+  // background-attachment: fixed;
+  // background-repeat: no-repeat;
+  // font-family: "Roboto";
+  // color: $primary-color;
+  // text-align: center;
+  width: 1280px;
+  height: 960px;
+  header {
+    width: 100%;
+    height: 100px;
+    .img-header {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100px;
+    }
+  }
+  
+
+  .page1 {
+    background-color:#F9CFB6;
+    width: 1350px;
+    height: 700px;
+    .menu {
+      display: flex;
+      padding: 20px;
+    }
+    .div-gauche {
+      margin: 25px;
+      margin-right:0;
+      padding-right:0;
+      padding: 25px;
+      background-color: white;
+      width: 625px;
+      height: 600px;
+      .img-curry {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+      }
+      p {
+        font-weight: bold;
+      }
+      .button-menu {
+        background-color: #F94512;
+        padding: 25px;
+        border-radius: 12px;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        // .class-modal {
+        //   display: none;
+        // }
+      }
+    }
+    .div-droite {
+      margin: 25px;
+      margin-left: 0;
+      padding: 25px;
+      padding-left:0;
+      width: 625px;
+      height: 600px;
+      .img-cuistot {
+        max-width: 100%;
+        height: 100%;
+      
+      }
+    }
+    // .rond-entier {
+    //   background-color: orange;
+    //   border-radius: 50%;
+    //   // position: relative;
+    //   // top: 40px;
+    //   // left: 40px;
+    // }
+  }
+  .page2 {
+    display: flex;
+    flex-direction: column;
+    width: 1350px;
+    height: 700px;
+    .partieune {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      .textes-bonhomme {
+        display: flex;
+        margin: 25px;
+        padding: 15px;
+        .div-textes {
+          width: 50%;
+          margin: 15px;
+          padding: 10px;
+          .h1-archives {
+           font-size: 80px;
+            color:#F94512;
+            font-weight: bold;
+          }
+          .h1-gustatives {
+            font-size: 80px;
+            color: black;
+          }
+          .button-voter {
+            background-color: #F94512;
+            border-radius: 30px;
+            padding: 25px;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+          }
+        }
+        .img-suri {
+          max-width: 100%;
+          height: 600px;
+        }
+      }
+    }
+    // .partiedeux {
+    //   width: 1350px;
+      .caroussel {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top:0;
+        padding-top: 0;
+        .image1 {
+          height: 250px;
+          width: 350px;
+          margin: 10px;
+          padding: 20px;
+        }
+        .image2 {
+          height: 250px;
+          width: 350px;
+          margin: 10px;
+          padding: 20px;
+        }
+        .image3 {
+          height: 250px;
+          width: 350px;
+          margin: 10px;
+          padding: 20px;
+        }
+      }
+    // }
+    
+  }
+
+  .bg-footer {
+    background-color: #333333;
+    width: 1350px;
+    height: 100px;
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
+
